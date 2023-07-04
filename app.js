@@ -19,8 +19,4 @@ const filterOutOdds2 = (...nums) => {
 // ...variable number of arguments and returns the smallest argument.
 // Make sure to do this using the rest and spread operator.
 
-const findMin = (...nums) => {
-    return nums.reduce((min, currVal) => {
-        return currVal < min ? currVal : min;
-    }, "nothing here.")
-}
+const findMin = (...nums) => Math.min(...nums);

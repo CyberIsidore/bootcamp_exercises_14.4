@@ -29,3 +29,11 @@ const mergeObjects = ((a, b) => {
     return combo = { ...a, ...b }
 });
 
+
+// Write a function called doubleAndReturnArgs
+// which accepts an array and a variable number of arguments.
+// The function should return a new array with the original array values...
+// ...and all of additional arguments doubled.
+
+const doubleAndReturnArgs = ((array, ...args) =>
+    numbers = ([...array, ...args].map(x => x * 2)));
